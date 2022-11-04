@@ -5,6 +5,7 @@ body {
   background: url("../assets/bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 
 body::before {
@@ -16,13 +17,6 @@ body::before {
   bottom: 0;
   background: rgba(49, 71, 89, 0.2);
 }
-
-@media (min-width: 350px) {
-  body {
-    background-attachment: fixed;
-  }
-}
-
 
 h1,
 h2,
